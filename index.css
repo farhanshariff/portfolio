@@ -1,0 +1,213 @@
+@import "~fontsource-alfa-slab-one/index.css";
+
+body {
+  background-color: rgb(216, 216, 216);
+  background-image: url("./imgs/background-pic2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#link {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  padding: 40px;
+  font-family: "Lucida Sans Unicode";
+  background-color: aliceblue;
+}
+
+.navbar {
+  color: #000000;
+  background-color: #1b1e25;
+  transition: linear;
+  transition-delay: 1s;
+  transition-duration: 1s;
+  box-shadow: none;
+}
+
+a:active {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.projects {
+  height: 500px;
+  width: 700px;
+}
+
+span {
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h4 {
+  color: rgb(255, 255, 255);
+}
+
+#githubLink {
+  padding: 70px;
+  font-size: large;
+  color: white;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.transition-swipe {
+  transition: 500ms;
+  transform: translateY(0);
+  padding: 30px;
+}
+
+html.is-animating .transition-swipe {
+  transform: translateY(100px);
+}
+
+.heading-name {
+  margin-left: 70px;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "Alfa Slab One";
+}
+
+.heading-name2 {
+  margin-left: 70px;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "Alfa Slab One";
+}
+
+.heading-name:hover {
+  margin-left: 70px;
+  font-size: 100px;
+  color: rgb(252, 185, 98);
+  font-family: "Alfa Slab One";
+}
+
+.heading-name2:hover {
+  margin-left: 70px;
+  font-size: 100px;
+  color: rgb(115, 129, 255);
+  font-family: "Alfa Slab One";
+}
+
+div#line1 span#a {
+  display: inline;
+}
+
+div#line1:hover span#a {
+  display: none;
+}
+
+div#line1 span#b {
+  display: none;
+}
+
+div#line1:hover span#b {
+  color: rgb(247, 111, 111);
+  display: inline;
+}
+
+.aboutme-content {
+  font-family: "Alfa Slab One";
+  margin: 50px;
+  font-size: 30px;
+  padding: 20px;
+  text-align: justify;
+  background-color: grey;
+  opacity: 70%;
+}
+
+.aboutme-text {
+  color: white;
+}
+.myimg {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#skill-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.row {
+  text-align: center;
+}
+
+#education-title {
+  font-family: "Alfa Slab One";
+  color: grey;
+  text-decoration: underline;
+}
+
+#education-section {
+  font-family: "Alfa Slab One";
+}
+
+#training-section {
+  font-family: "Alfa Slab One";
+  font-size: 30px;
+  color: grey;
+}
+
+#cocurricularactivities-section {
+  font-family: "Alfa Slab One";
+  font-size: 20px;
+  color: grey;
+  padding: 20px;
+}
+
+#emailme-button {
+  background-color: rgb(99, 99, 99);
+  align-items: center;
+}
+
+#emailme-button:hover {
+  background-color: rgb(245, 106, 106);
+  align-items: center;
+  color: white;
+}
+
+#iconic {
+  padding: 6px;
+}
+
+.intro-pic {
+  position: relative;
+  height: 600px;
+  width: 600px;
+}
+
+#social-media {
+  margin-top: 250px;
+  padding: 14px;
+  align-items: center;
+}
+
+.front {
+  width: 100%;
+  height: 100%;
+}
